@@ -21,7 +21,7 @@ const Ecommerce = () => {
   return (
     <div className="mt-24">
       <div className="flex flex-wrap lg:flex-nowrap justify-center ">
-        <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center">
+        {/* <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center">
           <div className="flex justify-between items-center">
             <div>
               <p className="font-bold text-gray-400">Earnings</p>
@@ -43,8 +43,8 @@ const Ecommerce = () => {
               borderRadius="10px"
             />
           </div>
-        </div>
-        <div className="flex m-3 flex-wrap justify-center gap-1 items-center">
+        </div> */}
+        <div className="flex m-3 flex-wrap justify-center gap-2 items-center">
           {earningData.map((item) => (
             <div key={item.title} className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl ">
               <button
@@ -66,7 +66,7 @@ const Ecommerce = () => {
         </div>
       </div>
 
-      <div className="flex gap-10 flex-wrap justify-center">
+      {/* <div className="flex gap-10 flex-wrap justify-center">
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg m-3 p-4 rounded-2xl md:w-780  ">
           <div className="flex justify-between">
             <p className="font-semibold text-xl">Revenue Updates</p>
@@ -149,7 +149,7 @@ const Ecommerce = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="flex gap-10 m-4 flex-wrap justify-center">
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl">
@@ -193,7 +193,7 @@ const Ecommerce = () => {
             <p className="text-gray-400 text-sm">36 Recent Transactions</p>
           </div>
         </div>
-        <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl w-96 md:w-760">
+        {/* <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl w-96 md:w-760">
           <div className="flex justify-between items-center gap-2 mb-10">
             <p className="text-xl font-semibold">Sales Overview</p>
             <DropDown currentMode={currentMode} />
@@ -201,7 +201,7 @@ const Ecommerce = () => {
           <div className="md:w-full overflow-auto">
             <LineChart />
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="flex flex-wrap justify-center">
