@@ -1,5 +1,7 @@
 {
   "name": "project_syncfusion_dashboard",
+  "proxy": "http://89.116.122.73:5000"
+,
   "version": "0.1.0",
   "private": true,
   "dependencies": {
